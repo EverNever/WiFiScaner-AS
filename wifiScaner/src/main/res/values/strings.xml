@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFi密码查看器</string>
+    <string name="app_version">WiFi密码查看器1.0</string>
+    <string name="app_label">无线你的生活</string>
+    
+    <string name="setting_name">设置</string>
+    <string name="put_name">导入/导出</string>
+    <string name="about_name">关于</string>
+    <string name="help_name">帮助</string>
+
+    <string name="intro_begin">开始使用</string>
+    
+    <string name="main_menu_gifts">大礼包</string>
+    <string name="main_menu_more">更多</string>
+    <string name="main_menu_setting">设置</string>
+    <string name="main_menu_help">帮助</string>
+    <string name="main_menu_fb">意见反馈</string>
+    
+    <string name="main_loading">加载中……</string>
+    
+    <string name="main_failed_reason">获取root失败，请检查授权管理。</string>
+    <string name="main_failed_retry">重试</string>
+    <string name="main_failed_fb">一直失败？点此提交反馈</string>
+    
+    <string name="main_noroot_reason">检测到你的手机尚未root</string>
+    <string name="main_noroot_help">查看如何root</string>
+    <string name="main_noroot_fb">已经root？点此提交反馈</string>
+    
+    <string name="main_nocontent_text">居然没有任何WiFi密码，简直不可思议，快去连一个吧！</string>
+    
+    <string name="main_dialog_copypass">复制密码</string>
+    <string name="main_dialog_copyall">复制热点和密码</string>
+    <string name="main_dialog_share">分享热点和密码给好友</string>
+    
+    <string name="setting_gruop_function">功能</string>
+    <string name="setting_group_other">其他</string>
+    <string name="setting_put_title">导入/导出</string>
+    <string name="setting_put_summary">从SD卡导入密码或导出密码到SD卡</string>
+    <string name="setting_autoupdate_title">WiFi下自动下载更新包</string>
+    <string name="setting_autoupdate_summary">自动更新不会消耗你的流量</string>
+    <string name="setting_about_title">关于</string>
+    <string name="setting_about_summary">检查新版本,了解更多等</string>
+    
+    <string name="put_noput">没有任何导出文件，快点击下方的立即导出吧！</string>
+    <string name="put_nosdcard">没有SD卡，请先安装SD卡后使用导入/导出</string>
+    <string name="put_output">立即导出</string>
+    <string name="put_input">导入</string>
+    
+    <string name="web_error">加载网页失败，请检查网络连接</string>
+    
+    <string name="about_copyright">Producted by chace</string>
+    <string name="about_me">>>关于我</string>
+
+</resources>

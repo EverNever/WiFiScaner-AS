@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/headLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="32dp"
+                android:background="@drawable/img_about_head"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/logoImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/ic_wifiscaner" />
+
+                <TextView
+                    android:id="@+id/versionText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/app_version"
+                    android:textColor="@color/text_white_87"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/labelText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/app_label"
+                    android:textSize="16sp"
+                    android:textColor="@color/text_white_87" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/markSection"
+                layout="@layout/item_about_list" />
+
+            <include
+                android:id="@+id/updateSection"
+                layout="@layout/item_about_list" />
+
+            <include
+                android:id="@+id/introSection"
+                layout="@layout/item_about_list" />
+
+            <include
+                android:id="@+id/moreSection"
+                layout="@layout/item_about_list" />
+
+            <TextView
+                android:id="@+id/copyrightText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:text="@string/about_copyright" />
+
+            <TextView
+                android:id="@+id/meText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/color_blue_pressed"
+                android:text="@string/about_me" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+</FrameLayout>

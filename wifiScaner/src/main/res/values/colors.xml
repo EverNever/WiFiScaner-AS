@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#33000000</color>
+    <color name="white">#fff</color>
+    <!-- 文字 -->
+    <color name="text_black_87">#DE000000</color>
+    <color name="text_black_54">#8a000000</color>
+    <color name="text_white_87">#deffffff</color>
+    <color name="text_white_54">#8affffff</color>
+    <!-- 蓝色 -->
+    <color name="colorPrimary">#21a5c3</color>
+    <color name="colorPrimaryDark">#0e8eab</color>
+    <!-- 青色 -->
+    <color name="colorAccent">#009688</color>
+    <color name="colorAccent_pressed">#004d40</color>
+    <!-- 青色按钮 -->
+    <color name="color_blue_normal">#009688</color>
+    <color name="color_blue_pressed">#004d40</color>
+    <!-- 白色 -->
+    <color name="color_white_normal">#fff</color>
+    <color name="color_white_pressed">#9e9e9e</color>
+    <!-- 灰色 -->
+    <color name="output_grey_normal">#e0e0e0</color>
+    <color name="output_grey_pressed">#9e9e9e</color>
+    
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WiFiScaner-AS.iml" filepath="$PROJECT_DIR$/WiFiScaner-AS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wifiScaner/wifiScaner.iml" filepath="$PROJECT_DIR$/wifiScaner/wifiScaner.iml" />
+    </modules>
+  </component>
+</project>

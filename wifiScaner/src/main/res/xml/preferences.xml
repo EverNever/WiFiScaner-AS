@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="@string/setting_gruop_function" >
+        <PreferenceScreen
+            android:key="pf_put"
+            android:layout="@layout/preference_item"
+            android:summary="@string/setting_put_summary"
+            android:title="@string/setting_put_title" >
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:key="pf_autoupdate"
+            android:defaultValue="true"
+            android:layout="@layout/preference_item"
+            android:summary="@string/setting_autoupdate_summary"
+            android:title="@string/setting_autoupdate_title" />
+
+    </PreferenceCategory>
+        <PreferenceCategory
+            android:layout="@layout/preference_category_widget"
+            android:title="@string/setting_group_other" >
+            <PreferenceScreen
+            android:key="pf_about"
+                android:layout="@layout/preference_item"
+                android:summary="@string/setting_about_summary"
+                android:title="@string/setting_about_title" >
+            </PreferenceScreen>
+        </PreferenceCategory>
+
+</PreferenceScreen>
